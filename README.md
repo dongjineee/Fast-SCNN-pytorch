@@ -68,3 +68,20 @@ Note: The result based on crop_size=768, which is different with paper.
 
 ## References
 - Rudra PK Poudel. et al. "Fast-SCNN: Fast Semantic Segmentation Network".
+
+## Custom data_set
+- custom data_loader
+```Shell
+cd ~/data_loader
+python3 sim_out_type1.py
+```
+- custom data_train
+```Shell
+python3 train_custom.py.py
+```
+
+- custom semantic image extraction demo
+```Shell
+python3 demo.py --model fast_scnn --input-pic './data_loader/datasets/test/rgb_image_7_png.rf.ab575095e6bb04b72ad99499ad402e6f.jpg'
+```
+
