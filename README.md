@@ -83,5 +83,7 @@ python3 train_custom.py.py
 - custom semantic image extraction demo
 ```Shell
 python3 demo.py --model fast_scnn --input-pic './data_loader/datasets/test/rgb_image_7_png.rf.ab575095e6bb04b72ad99499ad402e6f.jpg'
+or
+python3 semantic_image_extraction.py
 ```
 
